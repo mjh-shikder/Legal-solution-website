@@ -17,30 +17,30 @@
 
 </head>
 
-<body class="max-w-7xl mx-auto my-5">
+<body class=" mx-auto my-5">
+    <main class="max-w-7xl mx-auto">
+        <header class="mx-auto">
+            <nav id="Nav-bar" class="flex justify-between items-center mb-5">
 
-    <header class="mx-auto">
-        <nav id="Nav-bar" class="flex justify-between items-center mb-5">
+                <div class="flex items-center">
+                    <img class="w-10" src="./images/business.png" alt="Logo">
 
-            <div class="flex items-center">
-                <img class="w-10" src="./images/business.png" alt="Logo">
+                    <h1 class="font-bold text-4xl ml-3">Justice</h1>
+                </div>
 
-                <h1 class="font-bold text-4xl ml-3">Justice</h1>
-            </div>
+                <div class="flex gap-10 font-medium text-gray-500 ">
+                    <a href="">Home</a>
+                    <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
+                    <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
+                    <a href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+                    <a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+                </div>
 
-            <div class="flex gap-10 font-medium text-gray-500 ">
-                <a href="">Home</a>
-                <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
-                <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
-                <a href="">Blog <i class="fa-solid fa-angle-right"></i></a>
-                <a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
-            </div>
+                <button class="bg-[#b68c59] p-4 rounded-lg text-white font-bold">Free Consultation</button>
+            </nav>
+        </header>
+        <!-- banner -->
 
-            <button class="bg-[#b68c59] p-4 rounded-lg text-white font-bold">Free Consultation</button>
-        </nav>
-    </header>
-    <!-- banner -->
-    <main>
         <section id="Banner" class="w-full relative mx-auto my-3.5">
 
             <img class="w-full object-cover " src="./images/banner.png" alt="">
@@ -293,7 +293,7 @@
             <div class="flex gap-3.5">
                 <div class="grid lg:grid-cols-2 w-1/2">
                     <div
-                        class="flex flex-col  items-center justify-center bg-gray-300 rounded-tl-lg border border-gray-400 py-10">
+                        class="flex flex-col  items-center justify-center bg-gray-200 rounded-tl-lg border border-gray-400 py-10">
                         <img class="w-10 mb-2.5" src="./images/location.png" alt="">
                         <h3 class="text-center font-bold text-2xl mb-2.5">Address</h3>
                         <p class="text-center"> A108 Adam Street,<br>
@@ -314,7 +314,7 @@
                             info@mail.com</p>
                     </div>
                     <div
-                        class="flex flex-col  items-center justify-center bg-gray-300 rounded-br-lg border border-gray-400 py-10">
+                        class="flex flex-col  items-center justify-center bg-gray-200 rounded-br-lg border border-gray-400 py-10">
                         <img class="w-10 mb-2.5" src="./images/time.png" alt="">
                         <h3 class="text-center font-bold text-2xl mb-2.5">Working Hours</h3>
                         <p class="text-center">Mon-Fri: 9AM to 5PM <br>
@@ -332,16 +332,68 @@
                     <input class="bg-gray-200 w-full py-8 rounded-lg pl-7 mb-6" type="search" name="" id=""
                         placeholder="Subject">
 
-                    <textarea class="bg-gray-200 w-full py-8 rounded-lg pl-7 mb-6" name="textarea" id="textbox"
-                        cols="10" rows="5">Your Massage</textarea>
+                    <textarea placeholder="Your Message" class="bg-gray-200 w-full py-8 rounded-lg pl-7 mb-6"
+                        name="textarea" id="textbox" cols="10" rows="5"></textarea>
 
                     <input class="bg-[#b68c59] w-full py-6 rounded-lg " type="button" value="Send Massage">
 
                 </div>
             </div>
         </section>
-
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-400 mt-24 ">
+        <section class="max-w-7xl mx-auto">
+            <div class="">
+                <img src="./images/logo.png" alt="">
+                <p> There are many variations of
+                    passages of Lorem Ipsum
+                    available, but the majority have
+                    suffered alteration in some
+                    form, by injected humour.
+                </p>
+            </div>
+            <div>
+                <h2>Usefull Link</h2>
+                <ul>
+                    <li><a href="index.html">Homes</a></li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="index.html">Cases</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Conatct Now</h2>
+                <ul>
+                    <li> 555 4th 5t NW, Washington
+                        DC 20530, United States</li>
+
+                    <li>
+                        +88 01750 000 000
+                        +88 01750 000 000
+                    </li>
+                    info@mail.com
+                    inf0@mail.com
+                    <li>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Subscribe</h2>
+                <p>Subscribe for our latest &
+                    Articles. We Won’t Give You
+                    Spam Mails</p>
+
+                <input type="search" name="" id="" placeholder="Email Address">
+                <button><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
